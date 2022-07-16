@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="container">
+        <a class="" href=""><img id="logo" src="images/location.png" alt="" srcset=""></a>
+        <a href=""><%= userTypeCity %></a>
+    </div>
+        
+        <form id="inputForm" action="/" method="post" >
+            <input type="text" id="cityInput" name="cityName" placeholder="Search..">
+            <button class="btn" type="submit">Go</button>
+        </form>
+      </div>
+
+    <div class="home">        
+        <img src=<%= imgSource %>  alt="" srcset="">
+        <div class="temp">
+            <h1> <%= temperature %>   <sup>&#176;</sup></h1>
+            <p><%= description %> </p>
+        </div>
+    </div>
+
+</body>
+<script src="index.js" charset="UTF-8"></script>
+</html>
